@@ -20,8 +20,6 @@ footerLogosLeft:
     url: https://creativecommons.org/licenses/by-nc-nd/4.0/
 footerLogosRight:
   - image: /uploads/1-6.png
-    alt: IDSRG
-    url: /
 ---
 **Intelligent Data Science Research Group (IDSRG)** and merupakan kelompok riset mandiri yang berdiri pada 25 Mei 2021 di Laboratorium Industrial Information System Research Center (IISRC), Fakultas Sains dan Matematika Universitas Diponegoro, Semarang. Gagasan pendiriannya dirumuskan bersama Almarhum **Prof. Dr. Suryono, S.Si., M.Si**., seorang ilmuwan dan pendidik visioner yang sepanjang hayatnya dikenal menjunjung tinggi nilai kejujuran dan keteladanan ilmiah. IDSRG hadir untuk memperkuat kontribusi akademik dalam mata kuliah Kecerdasan Buatan dan Data Mining Kesehatan, serta menjadi ruang pendampingan ilmiah bagi mahasiswa yang meniti jalan riset dengan sungguh-sungguh. Di bawah arahan **Dr. Ahmad Ilham, S.Kom., M.Kom.**, kelompok ini berkomitmen memfasilitasi riset bermutu tinggi di bidang Data Mining dan Intelligent System, terutama pada sektor-sektor strategis seperti kesehatan, ketahanan pangan, dan indeks desa membangun (***[roadmap](https://sites.google.com/unimus.ac.id/ahmadilham/roadmap)***). Adapun syarat mahasiswa yang dibimbing sebelum dan setelah melakukan publikasi ke target jurnal yang dipilih dapat dilihat pada link **[ini](https://sites.google.com/unimus.ac.id/ahmadilham/publikasi)**.  Informasi detail mahasiswa yang sedang melakukan proyek skripsi dapat dilihat pada link** [ini](https://sites.google.com/unimus.ac.id/ahmadilham/studentsee?authuser=0)**. Hasil-hasil penelitian diarahkan tidak sekadar sebagai kewajiban akademik, melainkan sebagai kontribusi nyata dalam bentuk publikasi di konferensi internasional dan jurnal bereputasi bereindeks Scopus dan WoS.
 
