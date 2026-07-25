@@ -1,9 +1,9 @@
 ---
-title: "Ahmad Ilham"
-description: "Dosen & peneliti bidang data mining dan komputasi."
 draft: false
-photo: "/uploads/profile-placeholder.svg"
-role: "Dosen & Peneliti — Data Mining & Komputasi Cerdas"
+title: Ahmad Ilham
+description: Dosen & peneliti bidang data mining dan komputasi.
+photo: /uploads/ilham-foto.jpg
+role: Dosen & Peneliti — Data Mining & Komputasi Cerdas
 affiliation: "[Program Studi], Universitas Muhammadiyah Semarang"
 profileLinks:
   - label: Google Scholar
