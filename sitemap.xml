@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://ahmadilham-idsrg.github.io/about-me/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/books/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/categories/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/idscience/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/lectures/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/mentoring/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/more/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/projects/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/research-grants/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/roadmap/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/students/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/tags/</loc></url><url><loc>https://ahmadilham-idsrg.github.io/tutorial/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:58030/</loc>
+    <lastmod>2026-07-25T23:50:23+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:58030/posts/post-pertama/</loc>
+    <lastmod>2026-07-25T23:50:23+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:58030/posts/</loc>
+    <lastmod>2026-07-25T23:50:23+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:58030/about-me/</loc>
+  </url><url>
+    <loc>http://localhost:58030/books/</loc>
+  </url><url>
+    <loc>http://localhost:58030/categories/</loc>
+  </url><url>
+    <loc>http://localhost:58030/idscience/</loc>
+  </url><url>
+    <loc>http://localhost:58030/lectures/</loc>
+  </url><url>
+    <loc>http://localhost:58030/mentoring/</loc>
+  </url><url>
+    <loc>http://localhost:58030/more/</loc>
+  </url><url>
+    <loc>http://localhost:58030/projects/</loc>
+  </url><url>
+    <loc>http://localhost:58030/research-grants/</loc>
+  </url><url>
+    <loc>http://localhost:58030/roadmap/</loc>
+  </url><url>
+    <loc>http://localhost:58030/students/</loc>
+  </url><url>
+    <loc>http://localhost:58030/tags/</loc>
+  </url><url>
+    <loc>http://localhost:58030/tutorial/</loc>
+  </url>
+</urlset>
