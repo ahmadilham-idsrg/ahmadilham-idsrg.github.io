@@ -6,6 +6,12 @@
   {{ end }}
 </section>
 
+{{ if .Content }}
+<section class="home-body">
+  {{ .Content }}
+</section>
+{{ end }}
+
 {{ if .Params.gallery }}
 <section class="home-gallery">
   {{ range .Params.gallery }}

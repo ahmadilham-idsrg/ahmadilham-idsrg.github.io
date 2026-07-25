@@ -36,7 +36,3 @@ Di halaman ini Anda dapat:
 - Menemukan materi kuliah, slide, dan catatan pembelajaran.
 - Melihat daftar hibah penelitian dan publikasi.
 - Mengikuti roadmap riset dan perkembangan proyek.
-
-Jika ingin mengedit konten ini lewat antarmuka grafis, buka `/admin/` di browser, pilih "Pages → Homepage", lakukan perubahan, lalu tekan `Save` dan `Commit`.
-
-Catatan: perubahan yang Anda lakukan lewat CMS lokal akan tersimpan ke file markdown situs (`content/_index.md`).

@@ -78,6 +78,21 @@
   line-height: 1.8;
 }
 
+.home-body {
+  max-width: 48rem;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+  color: var(--content, var(--secondary));
+  line-height: 1.7;
+  text-align: center;
+}
+
+.home-body ul {
+  display: inline-block;
+  text-align: left;
+  margin: 1rem 0 0;
+}
+
 .home-gallery {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

@@ -19,17 +19,31 @@ collections:
         name: "homepage"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string" }
-          - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - label: "Home Cards"
-            name: "homeCards"
+          - { label: "Description (subtitle hero)", name: "description", widget: "string" }
+          - label: "Galeri Foto"
+            name: "gallery"
             widget: "list"
+            required: false
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "text" }
-              - { label: "URL", name: "url", widget: "string" }
-              - { label: "Image URL", name: "image", widget: "string", required: false }
+              - { label: "Gambar", name: "image", widget: "image" }
+              - { label: "Alt / keterangan", name: "alt", widget: "string", required: false }
+          - label: "Logo Footer (kiri)"
+            name: "footerLogosLeft"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Gambar", name: "image", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "URL (tautan)", name: "url", widget: "string", required: false }
+          - label: "Logo Footer (kanan)"
+            name: "footerLogosRight"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Gambar", name: "image", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string", required: false }
+              - { label: "URL (tautan)", name: "url", widget: "string", required: false }
+          - { label: "Body (teks isi)", name: "body", widget: "markdown", required: false }
       - file: "content/about-me/_index.md"
         label: "About Me"
         name: "aboutMe"
