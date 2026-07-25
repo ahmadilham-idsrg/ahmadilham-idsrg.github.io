@@ -5,7 +5,9 @@ draft: false
 photo: /uploads/1-1.jpg
 affiliation: Department of Informatics, Universitas Muhammadiyah Semarang,
   Semarang, Indonesia
-profileLinks: []
+profileLinks:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=GqYIwFEAAAAJ&hl
 interests:
   - Data Mining
   - Intelligent System
