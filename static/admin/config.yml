@@ -3,6 +3,8 @@ backend:
   repo: ahmadilham-idsrg/ahmadilham-idsrg.github.io
   branch: main
   auth_scope: repo
+  base_url: https://decap-oauth.ahmadilham.workers.dev
+  auth_endpoint: /auth
   local_backend: true
 
 media_folder: "static/uploads"
