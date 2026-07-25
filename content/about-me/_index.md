@@ -36,9 +36,4 @@ startHere:
     url: /roadmap/
     desc: arah penelitian dan pengembangan
 ---
-
-Saya **Ahmad Ilham**, dosen dan peneliti dengan fokus pada *data mining*, *machine learning*, dan komputasi cerdas. Penelitian saya menitikberatkan pada pengembangan dan penerapan metode pembelajaran mesin serta optimasi untuk menyelesaikan masalah nyata di bidang sains data dan sistem informasi.
-
-Di situs ini Anda dapat menemukan publikasi dan hibah penelitian, materi kuliah, serta roadmap riset saya. Saya juga aktif membimbing mahasiswa dan berkolaborasi dalam berbagai proyek ilmiah.
-
-> _Catatan: teks, foto, afiliasi, dan tautan profil di halaman ini masih contoh — silakan ganti dengan data asli Anda lewat CMS (`/admin/` → Pages → About Me)._
+Dr. Ahmad Ilham, S.Kom., M.Kom., is an Indonesian national who has pursued an extensive academic journey. He earned his bachelor's degree in information systems within the field of computer science at Universitas Al Asyariah Mandar (Unasman). He then completed his master's degree in intelligent systems in informatics engineering at Universitas Dian Nuswantoro (Udinus). His PhD/Dr, with a focus on machine learning for health, was obtained from the Information System Doctoral Study Program at the Postgraduate School of Diponegoro University. His doctoral dissertation is on machine learning for intelligent systems in health. Since 2020, he has been a faculty member in the Department of Informatics at Universitas Muhammadiyah Semarang (Unimus). Additionally, he founded the **Intelligent Data Science Research Group ([IDSRG](https://sites.google.com/unimus.ac.id/ahmadilham/idsrg?authuser=0))** [[link](https://sites.google.com/unimus.ac.id/ahmadilham/idsrg)] and is a member of the International Association of Engineers (IAENG). His research interests encompass data science, machine learning, and intelligent information processing.
