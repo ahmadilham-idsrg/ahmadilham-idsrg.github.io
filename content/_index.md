@@ -1,6 +1,6 @@
 ---
-title: ahmadilham
-description: media lectures note and data mining computing research
+title: IDSRG
+description: Intelligent Data Science Research Group
 draft: false
 gallery:
   - image: /uploads/1-1.jpg
