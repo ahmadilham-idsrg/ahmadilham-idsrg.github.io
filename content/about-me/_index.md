@@ -10,13 +10,13 @@ profileLinks:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=GqYIwFEAAAAJ&hl
   - label: Scopus
-    url: "#"
+    url: https://www.scopus.com/authid/detail.uri?authorId=57204172803
   - label: ORCID
-    url: "#"
+    url: https://orcid.org/0000-0001-5109-6258
   - label: SINTA
     url: "#"
   - label: GitHub
-    url: "#"
+    url: https://github.com/ahmadilham-idsrg/
   - label: LinkedIn
     url: "#"
 interests:
