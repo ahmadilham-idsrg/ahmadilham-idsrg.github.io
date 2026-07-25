@@ -23,7 +23,7 @@ footerLogosRight:
     alt: IDSRG
     url: /
 ---
-Selamat datang di situs resmi Ahmad Ilham. Di sini Anda dapat menemukan materi kuliah, riset, publikasi, dan roadmap pengembangan. ========
+Selamat datang di situs resmi Ahmad Ilham. Di sini Anda dapat menemukan materi kuliah, riset, publikasi, dan roadmap pengembangan.
 
 Di halaman ini Anda dapat:
 
