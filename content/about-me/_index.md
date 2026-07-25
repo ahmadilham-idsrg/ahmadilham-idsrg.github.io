@@ -3,11 +3,12 @@ draft: false
 title: Ahmad Ilham
 description: Dosen & peneliti bidang data mining dan komputasi.
 photo: /uploads/ilham-foto.jpg
-role: Dosen & Peneliti — Data Mining & Komputasi Cerdas
-affiliation: "[Program Studi], Universitas Muhammadiyah Semarang"
+role: Lecturer and researcher
+affiliation: Department of Informatics, Universitas Muhammadiyah Semarang,
+  Semarang, Indonesia
 profileLinks:
   - label: Google Scholar
-    url: "#"
+    url: https://scholar.google.com/citations?user=GqYIwFEAAAAJ&hl
   - label: Scopus
     url: "#"
   - label: ORCID
