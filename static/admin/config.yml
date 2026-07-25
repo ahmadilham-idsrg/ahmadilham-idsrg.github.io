@@ -11,6 +11,21 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
+  - name: "navigation"
+    label: "Menu Navigasi"
+    files:
+      - file: "data/nav.yml"
+        label: "Menu Utama"
+        name: "mainnav"
+        fields:
+          - label: "Item Menu"
+            name: "items"
+            label_singular: "Item"
+            widget: "list"
+            fields:
+              - { label: "Nama", name: "name", widget: "string" }
+              - { label: "URL / Tautan", name: "url", widget: "string", hint: "contoh: /lectures/ atau https://..." }
+
   - name: "pages"
     label: "Pages"
     files:
@@ -48,9 +63,32 @@ collections:
         label: "About Me"
         name: "aboutMe"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Nama (judul)", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "string" }
+          - { label: "Foto Profil", name: "photo", widget: "image", required: false }
+          - { label: "Jabatan / Peran", name: "role", widget: "string", required: false }
+          - { label: "Afiliasi", name: "affiliation", widget: "string", required: false }
+          - label: "Tautan Profil"
+            name: "profileLinks"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+          - label: "Bidang Keahlian"
+            name: "interests"
+            widget: "list"
+            required: false
+            field: { label: "Bidang", name: "item", widget: "string" }
+          - label: "Mulai dari sini"
+            name: "startHere"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Keterangan", name: "desc", widget: "string", required: false }
+          - { label: "Body (bio)", name: "body", widget: "markdown", required: false }
       - file: "content/lectures/_index.md"
         label: "Lectures"
         name: "lectures"
@@ -68,6 +106,48 @@ collections:
       - file: "content/roadmap/_index.md"
         label: "Roadmap"
         name: "roadmap"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/tutorial/_index.md"
+        label: "Tutorial"
+        name: "tutorial"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/projects/_index.md"
+        label: "Projects"
+        name: "projects"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/students/_index.md"
+        label: "Students"
+        name: "students"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/mentoring/_index.md"
+        label: "Mentoring"
+        name: "mentoring"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/books/_index.md"
+        label: "Books"
+        name: "books"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/idscience/_index.md"
+        label: "IDScience"
+        name: "idscience"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string" }

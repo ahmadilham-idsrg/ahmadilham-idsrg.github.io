@@ -1,0 +1,47 @@
+{{ define "main" }}
+<article class="about">
+  <header class="about-head">
+    {{ with .Params.photo }}
+      <img class="about-photo" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+    {{ end }}
+    <div class="about-intro">
+      <h1 class="about-name">{{ .Title }}</h1>
+      {{ with .Params.role }}<p class="about-role">{{ . }}</p>{{ end }}
+      {{ with .Params.affiliation }}<p class="about-affil">{{ . }}</p>{{ end }}
+      {{ with .Params.profileLinks }}
+        <ul class="about-links">
+          {{ range . }}
+            <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </header>
+
+  {{ with .Content }}
+  <section class="about-body">
+    {{ . }}
+  </section>
+  {{ end }}
+
+  {{ with .Params.interests }}
+  <section class="about-block">
+    <h2>Bidang Keahlian</h2>
+    <ul class="about-tags">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{ with .Params.startHere }}
+  <section class="about-block">
+    <h2>Mulai dari sini</h2>
+    <ul class="about-start">
+      {{ range . }}
+        <li><a href="{{ .url }}">{{ .label }}</a>{{ with .desc }} — {{ . }}{{ end }}</li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</article>
+{{ end }}
