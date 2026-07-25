@@ -22,11 +22,6 @@ footerLogosRight:
   - image: /uploads/idsrg-logo.svg
     alt: IDSRG
     url: /
-homeCards:
-  - title: test
-    text: sdasdasd
-    url: sdsdsds
-    image: sdas
 ---
 
 Selamat datang di situs resmi Ahmad Ilham. Di sini Anda dapat menemukan materi kuliah, riset, publikasi, dan roadmap pengembangan.
