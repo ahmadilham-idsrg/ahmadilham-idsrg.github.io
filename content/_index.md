@@ -7,9 +7,9 @@ gallery:
     alt: Photo 1
   - image: /uploads/1-2.jpg
     alt: Photo 2
-  - image: /uploads/1-3.jpg
+  - image: https://lh3.googleusercontent.com/sitesv/AG8ngQUnYPdiiqW7y9Ht_sl-1bqhvVOhbaLR2tiky-Y2q1bDTxPVcghETLD4NwkcJvtvOZMAEuHeCXxAKhqnS72QiSI9qCEV6GP8a-wzatMKDKDBFIShCokgc-KNtXzDy00NMF6JVWkDkxkPZW74DbaMeQNAs2VslUOKgKeaYOwQ1ll0LzrD3Ws5XC8pm6fQ1o002qSkz6c8P4rI0-rDx82MfRiif27DgYlGTVc74SkXpnE=w1280
     alt: Photo 3
-  - image: /uploads/1-4.jpg
+  - image: https://lh3.googleusercontent.com/sitesv/AG8ngQU1vhwHs-HnBVC4hqoY0YBkNjG-4F3_9y0HUE69jy-cJ2yPfAwkWD7pI1YWnrMFYSQ8g7Vwkat5yCmDgGInfm8fYPJFHWQUSo_Pxaq55njO7xoLUE3fx1J1Cn8fwzoq8dxA9lyKobsx9Nq3oNPOYyQeKLel53f5mLODQdXr1vcedSBExViVZ1qtKEnruF_CUgNv0GVMUryiN_S_BFgCGfmOZAj_qtflGGAX9xWDv08=w1280
     alt: Photo 4
 footerLogosLeft:
   - image: /uploads/iop-publishing.png
