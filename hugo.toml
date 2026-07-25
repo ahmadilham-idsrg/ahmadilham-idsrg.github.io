@@ -1,0 +1,73 @@
+baseURL = 'https://ahmadilham-idsrg.github.io/'
+locale = 'id-id'
+title = 'ahmadilham'
+theme = 'PaperMod'
+
+[params]
+  description = 'media lectures note and data mining computing research'
+  defaultTheme = 'auto'
+  profileMode.enabled = false
+  disableThemeToggle = true
+  label.text = 'ahmadilham'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About Me'
+    url = '/about-me/'
+    weight = 2
+  [[menu.main]]
+    identifier = 'lectures'
+    name = 'Lectures'
+    url = '/lectures/'
+    weight = 3
+  [[menu.main]]
+    identifier = 'research-grants'
+    name = 'Research Grants'
+    url = '/research-grants/'
+    weight = 4
+  [[menu.main]]
+    identifier = 'roadmap'
+    name = 'Roadmap'
+    url = '/roadmap/'
+    weight = 5
+  [[menu.main]]
+    identifier = 'tutorial'
+    name = 'Tutorial'
+    url = '/tutorial/'
+    weight = 6
+  [[menu.main]]
+    identifier = 'projects'
+    name = 'Projects'
+    url = '/projects/'
+    weight = 7
+  [[menu.main]]
+    identifier = 'students'
+    name = 'Students'
+    url = '/students/'
+    weight = 8
+  [[menu.main]]
+    identifier = 'mentoring'
+    name = 'Mentoring'
+    url = '/mentoring/'
+    weight = 9
+  [[menu.main]]
+    identifier = 'books'
+    name = 'Books'
+    url = '/books/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'idscience'
+    name = 'IDScience'
+    url = '/idscience/'
+    weight = 11
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 12

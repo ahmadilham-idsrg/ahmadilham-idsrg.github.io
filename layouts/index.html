@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="home-hero home-hero-center">
+  <h1>{{ .Title }}</h1>
+  {{ if .Description }}
+  <p class="hero-subtitle">{{ .Description }}</p>
+  {{ end }}
+</section>
+
+{{ if .Params.gallery }}
+<section class="home-gallery">
+  {{ range .Params.gallery }}
+  <figure class="gallery-item">
+    <img src="{{ .image }}" alt="{{ .alt }}">
+  </figure>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ if or .Params.footerLogosLeft .Params.footerLogosRight }}
+<section class="home-footer-logos">
+  <div class="home-logo-group left">
+    {{ range .Params.footerLogosLeft }}
+    <a href="{{ .url }}" target="_blank" rel="noopener">
+      <img src="{{ .image }}" alt="{{ .alt }}">
+    </a>
+    {{ end }}
+  </div>
+  <div class="home-logo-group right">
+    {{ range .Params.footerLogosRight }}
+    <a href="{{ .url }}" target="_blank" rel="noopener">
+      <img src="{{ .image }}" alt="{{ .alt }}">
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
