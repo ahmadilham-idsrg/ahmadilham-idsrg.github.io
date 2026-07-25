@@ -5,7 +5,7 @@ draft: false
 gallery:
   - image: /uploads/1-1.jpg
     alt: Photo 1
-  - image: /uploads/photo-placeholder-2.svg
+  - image: /uploads/1-2.jpg
     alt: Photo 2
   - image: /uploads/photo-placeholder-3.svg
     alt: Photo 3
