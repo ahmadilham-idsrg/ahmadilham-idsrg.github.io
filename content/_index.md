@@ -19,7 +19,7 @@ footerLogosLeft:
     alt: CC BY-NC-ND
     url: https://creativecommons.org/licenses/by-nc-nd/4.0/
 footerLogosRight:
-  - image: /uploads/idsrg-logo.svg
+  - image: /uploads/1-6.png
     alt: IDSRG
     url: /
 ---
