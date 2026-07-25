@@ -2,8 +2,14 @@
     <nav class="header-nav home-header-nav">
         <div class="logo home-logo">
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Params.label.text | default site.Title }} (Alt + H)">
-                {{- $label_text := (site.Params.label.text | default site.Title) }}
-                {{- $label_text -}}
+                {{- if and site.Data.siteConfig site.Data.siteConfig.logo }}
+                    {{- /* Tampilkan logo image */ -}}
+                    <img src="{{ site.Data.siteConfig.logo }}" alt="{{ site.Params.label.text | default site.Title }}" class="logo-image" style="height: 40px; object-fit: contain;">
+                {{- else }}
+                    {{- /* Fallback ke teks */ -}}
+                    {{- $label_text := (site.Data.siteConfig.logo_text | default site.Params.label.text | default site.Title) }}
+                    {{- $label_text -}}
+                {{- end }}
             </a>
         </div>
 
