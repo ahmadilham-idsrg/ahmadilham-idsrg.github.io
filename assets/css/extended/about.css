@@ -1,6 +1,6 @@
 /* Halaman About Me — gaya profil peneliti (mirip pola sebastianraschka.com/about) */
 .about {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 0 3rem;
 }

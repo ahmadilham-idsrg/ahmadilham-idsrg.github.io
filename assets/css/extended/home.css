@@ -1,7 +1,7 @@
 /* Lebarkan area konten khusus homepage agar sejajar dengan menu
    (hanya halaman yang punya .home-hero, tidak memengaruhi halaman lain) */
 body:has(.home-hero) .main {
-  max-width: 1080px;
+  max-width: 1000px;
 }
 
 .home-header-nav {
@@ -9,7 +9,7 @@ body:has(.home-hero) .main {
   align-items: center;
   gap: 1rem;
   padding: 1rem 1.5rem;
-  max-width: 1080px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
