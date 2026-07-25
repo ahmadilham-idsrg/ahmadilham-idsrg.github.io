@@ -7,9 +7,9 @@ gallery:
     alt: Photo 1
   - image: /uploads/1-2.jpg
     alt: Photo 2
-  - image: /uploads/photo-placeholder-3.svg
+  - image: /uploads/1-3.jpg
     alt: Photo 3
-  - image: /uploads/photo-placeholder-4.svg
+  - image: /uploads/1-4.jpg
     alt: Photo 4
 footerLogosLeft:
   - image: /uploads/iop-publishing.png
