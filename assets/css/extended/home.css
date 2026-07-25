@@ -1,9 +1,7 @@
 .home-header-nav {
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 1rem 2rem;
 }
 
@@ -13,26 +11,24 @@
   letter-spacing: 0.02em;
   color: var(--text);
   text-transform: none;
+  white-space: nowrap;
+}
+
+/* Logo stays in-flow on the left; menu centers in the remaining space */
+.home-logo {
+  flex: 0 0 auto;
 }
 
 .home-menu {
+  flex: 1 1 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-/* Keep logo pinned left while menu is centered */
-.home-logo {
-  position: absolute;
-  left: 1.5rem;
-}
-
-.home-menu {
-  margin: 0 auto;
 }
 
 .home-menu .menu-item a {
