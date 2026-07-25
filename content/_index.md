@@ -3,7 +3,7 @@ title: ahmadilham
 description: media lectures note and data mining computing research
 draft: false
 gallery:
-  - image: /uploads/sample-photo.svg
+  - image: /uploads/1-1.jpg
     alt: Photo 1
   - image: /uploads/photo-placeholder-2.svg
     alt: Photo 2
