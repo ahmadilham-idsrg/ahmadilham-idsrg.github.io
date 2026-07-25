@@ -1,8 +1,16 @@
+/* Lebarkan area konten khusus homepage agar sejajar dengan menu
+   (hanya halaman yang punya .home-hero, tidak memengaruhi halaman lain) */
+body:has(.home-hero) .main {
+  max-width: 1080px;
+}
+
 .home-header-nav {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1rem 2rem;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .home-logo a {
@@ -23,8 +31,8 @@
   flex: 1 1 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
+  justify-content: flex-end;
+  gap: 1rem;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
@@ -33,9 +41,10 @@
 
 .home-menu .menu-item a {
   color: var(--text);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   text-decoration: none;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .home-menu .menu-item a:hover,
@@ -56,10 +65,10 @@
 }
 
 .home-hero {
-  padding: 6rem 1.5rem 3rem;
+  padding: 3rem 1.5rem 1.5rem;
   text-align: center;
   background: transparent;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .home-hero h1 {
