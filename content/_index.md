@@ -12,7 +12,7 @@ gallery:
   - image: /uploads/1-4.jpg
     alt: Photo 4
 footerLogosLeft:
-  - image: https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/175560817
+  - image: https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/175560817
     alt: IOP
     url: https://accreditations.ioppublishing.org/370348e6-d7f2-4dd3-bd8b-411f93058626
   - image: /uploads/cc-by-nc-nd.svg
