@@ -5,5 +5,7 @@ items:
     url: /lectures/
   - name: Books
     url: /books/
+  - name: Research Grants
+    url: /research/
   - name: Contact
     url: /contact/
