@@ -1,13 +1,13 @@
 logo: null
-logo_text: "Ahmad Ilham"
+logo_text: Dr. Ahmad Ilham, S.Kom.,M.Kom.
+contact_email: ahmadilham[ed]unimus[dot]ac[dot]id
 social_links:
-  - label: "GitHub"
-    url: "https://github.com"
-    icon: "github"
-  - label: "LinkedIn"
-    url: "https://linkedin.com"
-    icon: "linkedin"
-  - label: "Twitter"
-    url: "https://twitter.com"
-    icon: "twitter"
-contact_email: "contact@example.com"
+  - label: GitHub
+    url: https://github.com
+    icon: github
+  - label: LinkedIn
+    url: https://linkedin.com
+    icon: linkedin
+  - label: Twitter
+    url: https://twitter.com
+    icon: twitter
