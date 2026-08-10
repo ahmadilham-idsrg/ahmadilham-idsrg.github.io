@@ -1,7 +1,162 @@
+# Publikasi — dikurasi dari Google Scholar (bidang CS/Data Science/Health Informatics).
+# Edit/tambah lewat CMS: koleksi "Publikasi".
 items:
   - year: 2026
-    title: gcdgdfgdfgd
-    authors: dfgdfgdfgdf
-    venue: gdgfdgdfgd
-    url: dgdgdgd
-    cite: -6
+    title: "PRO-LGBM: A Synergistic Integrated Pipeline for Outlier Detection and Imbalance Handling with Optimized LightGBM in Fetal Health Classification"
+    authors: "A Ilham, L Khikmah, M Kamaruddin, RS Wahono"
+    venue: "Franklin Open"
+  - year: 2026
+    title: "Breast Cancer Classification Using Support Vector Machine Method and RBF Kernel Function Based on Clinical Data, Cancer Stage, and Immunohistochemistry Results"
+    authors: "SN Ekawati, A Iswara, A Ilham, AA Wardhani"
+    venue: "Jurnal Ilmiah Kedokteran Wijaya Kusuma 15(1)"
+  - year: 2026
+    title: "Robust Few-Shot Biological Pathology Classification via Optimized Contrastive MobileNetV2: A Transferable Model for Low-Resource Medical Imaging"
+    authors: "NA Prawira, M Firmansyah, D Marutho, A Ilham"
+    venue: "Journal of Intelligent Computing & Health Informatics 7(1)"
+  - year: 2025
+    title: "FRSTU-Forest: A fixed random-state undersampling framework for reliable decision support in imbalanced classification"
+    authors: "A Ilham, L Khikmah"
+    venue: "Intelligent Decision Technologies"
+  - year: 2025
+    title: "Evaluation of a Semantic Representation-Based Retrieval Model on a Text Dataset Generated from Image Transformation"
+    authors: "M Firmansyah, D Marutho, A Ilham, I Saputra"
+    venue: "Journal of Intelligent Computing & Health Informatics 6(2)"
+  - year: 2024
+    title: "CFCM-SMOTE: A robust fetal health classification to improve precision modelling in multi-class scenarios"
+    authors: "A Ilham, A Kindarto, A Kareem Oleiwi, L Khikmah, A Fathurohman, et al."
+    venue: "University of Bahrain"
+    cite: 11
+  - year: 2024
+    title: "Fetal Health Risk Classification Using Important Feature Selection and CART Model on Cardiotocography Data"
+    authors: "A Ilham"
+    venue: "Informatica"
+    cite: 2
+  - year: 2024
+    title: "Enhancing Agricultural Pest Detection with EfficientNetV2-L and Grad-CAM: A Comprehensive Approach to Sustainable Farming"
+    authors: "DFN Agatra, BA Cornella, M Muza'in, M Munsarif, J Abdollahi, A Ilham"
+    venue: "Journal of Intelligent Computing & Health Informatics 5(1)"
+    cite: 5
+  - year: 2023
+    title: "Optimizing ANN-Based Lyapunov Stability for Facial Expression Recognition as a Base Monitoring Neurological Disorders"
+    authors: "A Ilham, H Hadiyanto, CE Widodo"
+    venue: "International Journal of Computing and Digital Systems 14(1)"
+    cite: 2
+  - year: 2023
+    title: "k-Means Cluster-based Random Undersampling and Meta-Learning Approach for Village Development Status Classification"
+    authors: "A Ilham, L Assaffat, L Khikmah, S Safuan, S Suprapedi"
+    venue: "JOIV: International Journal on Informatics Visualization 7(2)"
+    cite: 1
+  - year: 2023
+    title: "A Review of Face Expression Recognition System Recommendation for Psychiatric Disease"
+    authors: "A Ilham, Suryono, C Edi Widodo"
+    venue: "AIP Conference Proceedings"
+    cite: 3
+  - year: 2023
+    title: "Klasifikasi Ujaran Kebencian di Twitter Menggunakan Fitur Ekstraksi GloVe dengan Support Vector Machine (SVM)"
+    authors: "A Ilham, NA Verdikha, AJ Latipah"
+    venue: "Explore IT: Jurnal Keilmuan dan Aplikasi Teknik Informatika 15(2)"
+    cite: 6
+  - year: 2023
+    title: "Sistem Presensi Mahasiswa Menggunakan Fitur Deteksi Wajah Berbasis Cognitive Internet of Things"
+    authors: "DA Liana, B Kristianto, A Amylia, A Maharani, A Ilham"
+    venue: "Jurnal Pekommas 8(2)"
+    cite: 4
+  - year: 2023
+    title: "Hybrid genetic feature selection and support vector machine for prediction LQ45 index in Indonesia stock exchange"
+    authors: "A Syukur, D Istiawan, W Sulistijanti, A Ilham"
+    venue: "3rd International Seminar on Science and Technology (ISSTEC) 2021"
+  - year: 2022
+    title: "Village status classification based tree algorithm"
+    authors: "NN Salima, A Ilham"
+    venue: "ICONSEIR 2021: 3rd International Conference of Science"
+    cite: 5
+  - year: 2022
+    title: "Metodologi Riset Bidang Sistem Informasi dan Komputer"
+    authors: "A Ilham, RR Al Hakim, T Indriyani, N Aswan, H Yenni, AI Yunus"
+    venue: "Buku — PT. Global Eksekutif Teknologi"
+    cite: 1
+  - year: 2022
+    title: "Teknik Peramalan Pada Teknologi Informasi"
+    authors: "AK Wardhani, F Israwan, J Setiawan, L Khikmah, A Ilham, S Nurmuslimah"
+    venue: "Buku — Get Press"
+    cite: 13
+  - year: 2022
+    title: "Sistem Pendukung Keputusan Pada Teknologi Informasi"
+    authors: "SH Wibowo, S Harlina, SRC Nursari, E Devia, A Ilham, L Khikmah, et al."
+    venue: "Buku — Get Press"
+    cite: 5
+  - year: 2021
+    title: "Implementation of Particle Swarm Optimization (PSO) to improve neural network performance in univariate time series prediction"
+    authors: "FA Tyas, M Setianama, RF Fajriyah, A Ilham"
+    venue: "Kinetik: Game Technology, Information System, Computer Network, Computing"
+    cite: 5
+  - year: 2021
+    title: "Impact of Class Imbalance on Convolutional Neural Network Training in Multi-class Problems"
+    authors: "A Ilham, N Mercado-Caruso, D Tapias-Ruiz, OBP Lezama"
+    venue: "Advances in Intelligent Systems and Computing"
+    cite: 5
+  - year: 2021
+    title: "Unsupervised learning as a data sharing model in the FP-Growth algorithm in determining the best transaction data pattern"
+    authors: "Mustakim, U Khairunnisa, A Wenda, A Ilham"
+    venue: "Journal of Theoretical and Applied Information Technology 99(11)"
+  - year: 2020
+    title: "Hybrid Metode Bootstrap dan Teknik Imputasi pada Metode C4.5 untuk Prediksi Penyakit Ginjal Kronis"
+    authors: "A Ilham"
+    venue: "Jurnal Statistika Universitas Muhammadiyah Semarang 8(1)"
+    cite: 15
+  - year: 2020
+    title: "Optimization fuzzy inference system based particle swarm optimization for onset prediction of the rainy season"
+    authors: "N Noviandi, A Ilham"
+    venue: "Kinetik: Game Technology, Information System, Computer Network, Computing"
+    cite: 4
+  - year: 2020
+    title: "New Method Based Pre-Processing to Tackle Missing and High Dimensional Data of CRISP-DM Approach"
+    authors: "J Suntoro, A Ilham, HAD Rani"
+    venue: "Journal of Physics: Conference Series 1472"
+    cite: 4
+  - year: 2019
+    title: "U-control chart based differential evolution clustering for determining the number of cluster in k-means"
+    authors: "A Ilham, RS Wahono, C Supriyanto, A Wijaya"
+    venue: "International Journal of Intelligent Engineering and Systems 12(4)"
+    cite: 17
+  - year: 2019
+    title: "Long-term deposits prediction: a comparative framework of classification model for predict the success of bank telemarketing"
+    authors: "A Ilham, L Khikmah, Indra, Ulumuddin, IBA Indra Iswara"
+    venue: "Journal of Physics: Conference Series 1175(1)"
+    cite: 19
+  - year: 2019
+    title: "Estimation of milkfish physical weighting as fishery industry support system using image processing technology"
+    authors: "A Qashlim, Basri, Haeruddin, I Nurtanio, A Ahmad Ilham, A Ilham"
+    venue: "Journal of Physics: Conference Series 1175(1)"
+    cite: 15
+  - year: 2019
+    title: "Tackling Initial Centroid of K-means with Distance Part (DP-KMeans)"
+    authors: "A Ilham, D Ibrahim, L Assaffat, A Solichan"
+    venue: "2018 International Symposium on Advanced Intelligent Informatics (SAIN)"
+    cite: 13
+  - year: 2019
+    title: "A novel framework of the fuzzy c-means distances problem based weighted distance"
+    authors: "AA Setyawan, A Ilham"
+    venue: "arXiv preprint arXiv:1907.13513"
+    url: "https://arxiv.org/abs/1907.13513"
+    cite: 4
+  - year: 2018
+    title: "Market Basket Analysis Using Apriori and FP-Growth for Analysis Consumer Expenditure Patterns at Berkah Mart in Pekanbaru Riau"
+    authors: "Mustakim, A Ilham, AD GS, FE Laumal, N Kurniasih, A Iskandar, et al."
+    venue: "Journal of Physics: Conference Series 1114(1)"
+    cite: 27
+  - year: 2018
+    title: "A systematic literature review on attribute independent assumption of Naive Bayes: research trend, datasets, methods and frameworks"
+    authors: "A Ilham, L Khikmah, A Qahslim, IBAI Iswara"
+    venue: "IOP Conference Series: Materials Science and Engineering 420(1)"
+    cite: 8
+  - year: 2018
+    title: "Optimalisasi Layanan Pengaduan Masyarakat pada Pemerintah Kota Binjai Menggunakan e-Government berbasis Data Kependudukan"
+    authors: "M Idaham, H Pranoto, A Ilham"
+    venue: "Jurnal Sistem Cerdas 1(1)"
+    cite: 7
+  - year: 2017
+    title: "Komparasi Algoritma Klasifikasi dengan Pendekatan Level Data untuk Menangani Data Kelas Tidak Seimbang"
+    authors: "A Ilham"
+    venue: "Jurnal Ilmiah Ilmu Komputer, Universitas Al Asyariah Mandar"
+    cite: 19

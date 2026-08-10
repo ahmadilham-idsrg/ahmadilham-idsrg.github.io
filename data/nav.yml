@@ -3,9 +3,13 @@ items:
     url: /
   - name: Courses
     url: /lectures/
+  - name: Publications
+    url: /publications/
   - name: Books
     url: /books/
   - name: Research Grants
     url: /research/
+  - name: Blog
+    url: /posts/
   - name: Contact
     url: /contact/

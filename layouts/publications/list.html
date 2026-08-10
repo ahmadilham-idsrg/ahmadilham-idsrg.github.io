@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article class="pubs">
+  <header class="pubs-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="pubs-sub">{{ . }}</p>{{ end }}
+
+    {{ if or .Params.citations .Params.hindex }}
+    <div class="pubs-stats">
+      {{ with .Params.citations }}<div class="stat"><span class="num">{{ . }}</span><span class="lbl">Sitasi</span></div>{{ end }}
+      {{ with .Params.hindex }}<div class="stat"><span class="num">{{ . }}</span><span class="lbl">h-index</span></div>{{ end }}
+      {{ with .Params.i10index }}<div class="stat"><span class="num">{{ . }}</span><span class="lbl">i10-index</span></div>{{ end }}
+    </div>
+    {{ end }}
+
+    <div class="pubs-links">
+      {{ with .Params.scholarUrl }}<a href="{{ . }}" target="_blank" rel="noopener">Google Scholar</a>{{ end }}
+      {{ with .Params.scopusUrl }}<a href="{{ . }}" target="_blank" rel="noopener">Scopus</a>{{ end }}
+      {{ with .Params.orcidUrl }}<a href="{{ . }}" target="_blank" rel="noopener">ORCID</a>{{ end }}
+    </div>
+  </header>
+
+  {{ with .Content }}<section class="pubs-intro">{{ . }}</section>{{ end }}
+
+  {{ $items := site.Data.publications.items }}
+  {{ if $items }}
+    {{ $years := slice }}
+    {{ range $items }}{{ $years = $years | append .year }}{{ end }}
+    {{ $years = $years | uniq | sort | collections.Reverse }}
+    {{ range $y := $years }}
+      <section class="pubs-year">
+        <h2>{{ $y }}</h2>
+        <ol class="pubs-list">
+          {{ range where $items "year" $y }}
+            <li class="pub">
+              <span class="pub-title">
+                {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+              </span>
+              <span class="pub-meta">{{ .authors }}. <em>{{ .venue }}</em>, {{ .year }}.{{ with .cite }} <span class="pub-cite">Disitasi {{ . }}×</span>{{ end }}</span>
+            </li>
+          {{ end }}
+        </ol>
+      </section>
+    {{ end }}
+  {{ end }}
+</article>
+{{ end }}

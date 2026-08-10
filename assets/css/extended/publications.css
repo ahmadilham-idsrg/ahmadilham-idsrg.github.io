@@ -1,0 +1,133 @@
+/* Halaman Publikasi */
+.pubs {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 0 3rem;
+}
+
+.pubs-head h1 {
+  margin: 0 0 0.3rem;
+}
+
+.pubs-sub {
+  margin: 0.2rem 0 1rem;
+  color: var(--secondary);
+}
+
+.pubs-stats {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.pubs-stats .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 90px;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--code-bg, rgba(128, 128, 128, 0.08));
+}
+
+.pubs-stats .num {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1.1;
+}
+
+.pubs-stats .lbl {
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
+
+.pubs-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.6rem 0 0;
+}
+
+.pubs-links a {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.pubs-links a:hover {
+  background: var(--primary);
+  color: var(--theme);
+  border-color: var(--primary);
+}
+
+.pubs-intro {
+  margin: 1.5rem 0 0.5rem;
+  color: var(--secondary);
+  line-height: 1.7;
+}
+
+.pubs-year {
+  margin-top: 2rem;
+}
+
+.pubs-year h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.pubs-list {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.pub {
+  margin-bottom: 1rem;
+  line-height: 1.55;
+}
+
+.pub-title {
+  display: block;
+  font-weight: 600;
+}
+
+.pub-title a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--secondary);
+}
+
+.pub-title a:hover {
+  color: var(--primary);
+}
+
+.pub-meta {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.pub-cite {
+  display: inline-block;
+  margin-left: 0.3rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  background: var(--code-bg, rgba(128, 128, 128, 0.15));
+  color: var(--primary);
+}
+
+@media (max-width: 640px) {
+  .pubs-stats .stat {
+    min-width: 72px;
+    padding: 0.5rem 0.7rem;
+  }
+}

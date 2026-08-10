@@ -4,7 +4,7 @@ title = 'ahmadilham'
 theme = 'PaperMod'
 
 [params]
-  description = 'media lectures note and data mining computing research'
+  description = 'Data mining, machine learning, and health informatics research — Ahmad Ilham.'
   defaultTheme = 'auto'
   profileMode.enabled = false
   disableThemeToggle = true

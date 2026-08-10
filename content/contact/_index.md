@@ -1,16 +1,22 @@
 ---
 title: "Contact"
-description: "Get in touch with Ahmad Ilham"
+description: "Kontak Ahmad Ilham — Department of Informatics, Universitas Muhammadiyah Semarang."
 draft: false
 ---
 
-## Get in Touch
+Untuk korespondensi akademik, kolaborasi riset, atau permintaan pembimbingan, silakan hubungi melalui kanal berikut.
 
-Hubungi saya melalui:
+**Afiliasi**
+Department of Informatics, Universitas Muhammadiyah Semarang, Semarang, Indonesia
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **Twitter**: [@your-twitter](https://twitter.com)
-- **LinkedIn**: [Your Profile](https://linkedin.com)
-- **GitHub**: [@your-github](https://github.com)
+**Kelompok riset**
+[Intelligent Data Science Research Group (IDSRG)](https://sites.google.com/unimus.ac.id/ahmadilham/idsrg)
 
-Saya juga dapat diikuti di berbagai platform untuk update terbaru tentang penelitian dan pengajaran.
+**Profil & tautan**
+
+- [Google Scholar](https://scholar.google.com/citations?user=GqYIwFEAAAAJ&hl=en)
+- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57204172803)
+- [ORCID](https://orcid.org/0000-0001-5109-6258)
+- [GitHub](https://github.com/ahmadilham-idsrg/)
+
+Untuk korespondensi langsung, alamat surel tersedia pada profil akademik di atas.

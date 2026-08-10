@@ -11,6 +11,64 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
+  - name: "blog"
+    label: "Blog / Artikel"
+    label_singular: "Artikel"
+    description: "Tulis artikel blog. Klik 'New Artikel' untuk membuat post baru."
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Tanggal", name: "date", widget: "datetime" }
+      - { label: "Draft (sembunyikan)", name: "draft", widget: "boolean", default: false }
+      - { label: "Ringkasan", name: "summary", widget: "text", required: false }
+      - label: "Gambar Sampul"
+        name: "cover"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Gambar", name: "image", widget: "image", required: false }
+          - { label: "Alt", name: "alt", widget: "string", required: false }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Kategori", name: "categories", widget: "list", required: false }
+      - { label: "Isi Artikel", name: "body", widget: "markdown" }
+
+  - name: "publications"
+    label: "Publikasi"
+    files:
+      - file: "content/publications/_index.md"
+        label: "Halaman Publikasi (statistik & tautan)"
+        name: "pubpage"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "string" }
+          - { label: "Total Sitasi", name: "citations", widget: "number", required: false }
+          - { label: "h-index", name: "hindex", widget: "number", required: false }
+          - { label: "i10-index", name: "i10index", widget: "number", required: false }
+          - { label: "URL Google Scholar", name: "scholarUrl", widget: "string", required: false }
+          - { label: "URL Scopus", name: "scopusUrl", widget: "string", required: false }
+          - { label: "URL ORCID", name: "orcidUrl", widget: "string", required: false }
+          - { label: "Intro", name: "body", widget: "markdown", required: false }
+      - file: "data/publications.yml"
+        label: "Daftar Publikasi"
+        name: "publist"
+        fields:
+          - label: "Publikasi"
+            name: "items"
+            label_singular: "Publikasi"
+            widget: "list"
+            summary: "{{fields.year}} — {{fields.title}}"
+            fields:
+              - { label: "Tahun", name: "year", widget: "number" }
+              - { label: "Judul", name: "title", widget: "string" }
+              - { label: "Penulis", name: "authors", widget: "string" }
+              - { label: "Venue (jurnal/konferensi/penerbit)", name: "venue", widget: "string" }
+              - { label: "URL / DOI", name: "url", widget: "string", required: false }
+              - { label: "Jumlah sitasi", name: "cite", widget: "number", required: false }
+
   - name: "navigation"
     label: "Menu Navigasi"
     files:
