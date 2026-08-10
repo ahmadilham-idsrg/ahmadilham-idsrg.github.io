@@ -8,7 +8,7 @@ items:
   - name: Books
     url: /books/
   - name: Research Grants
-    url: /research/
+    url: /research-grants/
   - name: Blog
     url: /posts/
   - name: Contact

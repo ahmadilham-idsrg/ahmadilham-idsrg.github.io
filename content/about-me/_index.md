@@ -14,7 +14,7 @@ profileLinks:
   - label: ORCID
     url: https://orcid.org/0000-0001-5109-6258
   - label: SINTA
-    url: "#"
+    url: https://sinta.kemdikbud.go.id/authors/profile/6707730
   - label: GitHub
     url: https://github.com/ahmadilham-idsrg/
   - label: LinkedIn

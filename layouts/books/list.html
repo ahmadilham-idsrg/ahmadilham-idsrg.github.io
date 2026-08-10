@@ -1,0 +1,37 @@
+{{ define "main" }}
+<article class="pubs">
+  <header class="pubs-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="pubs-sub">{{ . }}</p>{{ end }}
+    {{ with .Params.sintaUrl }}
+    <div class="pubs-links"><a href="{{ . }}" target="_blank" rel="noopener">SINTA</a></div>
+    {{ end }}
+  </header>
+
+  {{ with .Content }}<section class="pubs-intro">{{ . }}</section>{{ end }}
+
+  {{ $items := site.Data.books.items }}
+  {{ if $items }}
+    {{ $years := slice }}
+    {{ range $items }}{{ $years = $years | append .year }}{{ end }}
+    {{ $years = $years | uniq | sort | collections.Reverse }}
+    {{ range $y := $years }}
+      <section class="pubs-year">
+        <h2>{{ $y }}</h2>
+        <ol class="pubs-list">
+          {{ range where $items "year" $y }}
+            <li class="pub">
+              <span class="pub-title">
+                {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+              </span>
+              <span class="pub-meta">{{ with .authors }}{{ . }}. {{ end }}<em>{{ .publisher }}</em>, {{ .year }}.</span>
+            </li>
+          {{ end }}
+        </ol>
+      </section>
+    {{ end }}
+  {{ else }}
+    <p class="pubs-intro">Daftar buku akan segera ditambahkan.</p>
+  {{ end }}
+</article>
+{{ end }}

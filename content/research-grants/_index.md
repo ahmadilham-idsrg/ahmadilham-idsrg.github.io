@@ -1,7 +1,8 @@
 ---
 title: "Research Grants"
-description: "Informasi hibah penelitian dan proyek riset."
+description: "Hibah penelitian dan proyek riset Ahmad Ilham."
 draft: false
+sintaUrl: "https://sinta.kemdikbud.go.id/authors/profile/6707730/?view=researches"
 ---
 
-Lihat daftar hibah penelitian, proyek riset, dan kolaborasi ilmiah yang sedang berlangsung.
+Daftar hibah penelitian, proyek riset, dan kolaborasi ilmiah. Data lengkap tersedia di profil SINTA.

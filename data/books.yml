@@ -1,5 +1,18 @@
+# Buku — edit/tambah lewat CMS: koleksi "Buku".
 items:
-  - year: 2026
-    title: sdasdasdsdas
-    authors: sdasdasdas
-    publisher: dasdasdas
+  - year: 2025
+    title: "Membongkar Kecerdasan Buatan: Konsep dan Aplikasinya"
+    authors: "M. Sam'an, A. Ilham"
+    publisher: "Penerbit Wawasan Ilmu"
+  - year: 2022
+    title: "Metodologi Riset Bidang Sistem Informasi dan Komputer"
+    authors: "A. Ilham, R. R. Al Hakim, T. Indriyani, N. Aswan, H. Yenni, A. I. Yunus"
+    publisher: "PT. Global Eksekutif Teknologi"
+  - year: 2022
+    title: "Teknik Peramalan pada Teknologi Informasi"
+    authors: "A. K. Wardhani, F. Israwan, J. Setiawan, L. Khikmah, A. Ilham, S. Nurmuslimah"
+    publisher: "Get Press"
+  - year: 2022
+    title: "Sistem Pendukung Keputusan pada Teknologi Informasi"
+    authors: "S. H. Wibowo, S. Harlina, S. R. C. Nursari, E. Devia, A. Ilham, L. Khikmah, dkk."
+    publisher: "Get Press"
