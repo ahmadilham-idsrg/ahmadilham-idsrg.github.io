@@ -5,8 +5,7 @@ draft: false
 cover:
   alt: Ahmad Ilham
   caption: Universitas Muhammadiyah Semarang
-tags:
-  - dsdsds
+tags: []
 ---
 Ada satu hal yang kerap kita lupakan di tengah hiruk-pikuk mengejar prestasi akademik, bahwa seorang peneliti pada hakikatnya adalah penjaga kebenaran. Ia bekerja dalam senyap, menimbang data dengan hati-hati, dan menahan diri dari kesimpulan yang tergesa. Pekerjaannya tidak selalu gemerlap, tetapi dari ketekunan semacam itulah peradaban dibangun. Maka menjaga integritas ilmu sejatinya adalah menjaga marwah manusia-manusia yang mengabdikan hidupnya pada pencarian kebenaran.
 
