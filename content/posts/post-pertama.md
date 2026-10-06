@@ -1,6 +1,6 @@
 ---
 title: Peneliti Boleh Salah, tetapi Tidak Boleh Berbohong
-date: 2026-07-25T23:50:23+07:00
+date: 2026-10-06T12:23:00.000+07:00
 draft: false
 cover:
   alt: Ahmad Ilham
