@@ -6,7 +6,7 @@ description: Daftar publikasi ilmiah Ahmad Ilham — data mining, machine
   learning, dan health informatics.
 citations: 296
 hindex: 5
-i10index: 5
+i10index: 7
 scholarUrl: https://scholar.google.com/citations?user=GqYIwFEAAAAJ&hl=en
 orcidUrl: https://orcid.org/0000-0001-5109-6258
 ---
