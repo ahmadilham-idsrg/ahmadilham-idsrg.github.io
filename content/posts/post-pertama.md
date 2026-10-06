@@ -5,7 +5,7 @@ draft: false
 cover:
   alt: ""
   caption: ""
-  image: https://id.pngtree.com/free-backgrounds-photos/bohong
+  image: ""
 tags: []
 categories:
   - Integritas
