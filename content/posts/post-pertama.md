@@ -3,10 +3,14 @@ title: Peneliti Boleh Salah, tetapi Tidak Boleh Berbohong
 date: 2026-10-06T12:23:00.000+07:00
 draft: false
 cover:
-  alt: Ahmad Ilham
-  caption: Universitas Muhammadiyah Semarang
+  alt: ""
+  caption: ""
 tags: []
+categories:
+  - Integritas
 ---
+*Penulis: Ahmad Ilham*
+
 Ada satu hal yang kerap kita lupakan di tengah hiruk-pikuk mengejar prestasi akademik, bahwa seorang peneliti pada hakikatnya adalah penjaga kebenaran. Ia bekerja dalam senyap, menimbang data dengan hati-hati, dan menahan diri dari kesimpulan yang tergesa. Pekerjaannya tidak selalu gemerlap, tetapi dari ketekunan semacam itulah peradaban dibangun. Maka menjaga integritas ilmu sejatinya adalah menjaga marwah manusia-manusia yang mengabdikan hidupnya pada pencarian kebenaran.
 
 Integritas ilmu bukanlah sekadar aturan yang tertulis dalam pedoman etika. Ia adalah sikap batin. Ia hadir ketika seorang peneliti memilih jujur melaporkan hasil yang tidak sesuai harapannya, ketika ia dengan rendah hati mengakui keterbatasan temuannya, dan ketika ia menolak menyebut sesuatu sebagai pasti padahal masih menyimpan ragu. Kejujuran semacam ini tidak lahir dari paksaan, melainkan dari kesadaran bahwa ilmu adalah amanah. Setiap data yang dipalsukan dan setiap kutipan yang dicuri bukan hanya mencederai aturan, tetapi juga melukai kepercayaan masyarakat pada ilmu itu sendiri.
